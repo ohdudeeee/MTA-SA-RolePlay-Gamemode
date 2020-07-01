@@ -1,0 +1,4 @@
+<meta>
+	<oop>true</oop>
+	<script src="NazwaSerwera.lua" type="client" />
+</meta>

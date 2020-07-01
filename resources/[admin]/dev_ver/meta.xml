@@ -1,0 +1,6 @@
+<meta>
+    <script src="settings.lua" type="server"/>
+    <script src="s_cmds.lua" type="server"/>
+    <script src="c_cmds.lua" type="client"/>
+    <script src="c_airbreak.lua" type="client"/>
+</meta>
