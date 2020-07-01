@@ -152,28 +152,3 @@ addCommandHandler("inv", function(plr, cmd)
         end
     end
 end)
-
-function zrespGraczaj(plr)
-    setElementPosition(plr, -206.71, 1119.15, 20.43, true)
-end
-
-addCommandHandler("aj", function(plr, cmd, id, czas, powod)
-    if getElementData(plr, "plr:duty") == true then
-        for _,v in ipairs(getElementsByType("player")) do
-            if getElementData(v, "id") == tonumber(id) then
-                local x, y, z = getElementPosition(v)
-                     if setElementDimension(v, getElementData(v, "plr:char_uid")) then
-                        setElementPosition(v, 154.17, -1951.89, 47.88) 
-                        zrespienie = setTimer(function()
-                            setElementPosition(v, -206.71, 1119.15, 20.43, true)
-                            setElementDimension(v, 0)
-                            outputChatBox("Wracasz z Admin Jail'a.", v, 255, 255, 255, false)
-                        end, tonumber(czas*1000*60), 1)   
-                    end
-                end
-            end
-    else
-        return
-    end
-end)
-
