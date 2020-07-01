@@ -1,5 +1,5 @@
 --[[
-	project: angelpine-rp.pl
+	project: bonecounty-rp.pl
 	author: split
 ]]
 
