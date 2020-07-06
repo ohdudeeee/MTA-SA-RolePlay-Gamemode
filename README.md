@@ -1,4 +1,4 @@
-## cegui mta sa role play gamemode
+## simple and primitive cegui mta sa role play gamemode
 systems here: 
 * save  (mysql)
 * inventory (mysql)
