@@ -1,4 +1,4 @@
-## simple and primitive cegui mta sa role play gamemode
+## simple and primitive cegui mta sa role play gamemode using some community scripts
 systems here: 
 * save  (mysql)
 * inventory (mysql)
