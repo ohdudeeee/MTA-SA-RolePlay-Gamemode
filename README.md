@@ -6,3 +6,4 @@ systems here:
 * nametags
 * admin duty (mysql)
 * chat system with all rp commands
+###### old gamemode, possible bugs / errors (free use)
